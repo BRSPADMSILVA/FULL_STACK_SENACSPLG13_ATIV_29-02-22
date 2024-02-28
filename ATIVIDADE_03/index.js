@@ -10,4 +10,4 @@ inquirer
   .then((respostas) => {
     const resposta = respostas.continuar ? chalk.green('Sim') : chalk.red('Não');
     console.log(`Você escolheu: ${resposta}`);
-  });;
+  });

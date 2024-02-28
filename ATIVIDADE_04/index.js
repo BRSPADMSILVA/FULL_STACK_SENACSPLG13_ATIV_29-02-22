@@ -13,4 +13,4 @@ const perguntas = [
 inquirer.prompt(perguntas).then((respostas) => {
   const frutasSelecionadas = respostas.frutas;
   console.log(`Suas frutas favoritas são: ${chalk.bold(frutasSelecionadas.join(', '))}`);
-});
+});;

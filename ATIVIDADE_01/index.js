@@ -13,4 +13,4 @@ const perguntas = [
 inquirer.prompt(perguntas).then(respostas => {
   const corEscolhida = respostas.corFavorita;
   console.log(`Sua cor favorita é: ${chalk.bold(corEscolhida)}`);
-});
+});;

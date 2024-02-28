@@ -13,4 +13,4 @@ const perguntas = [
 inquirer.prompt(perguntas).then((respostas) => {
   const classificacaoEscolhida = respostas.classificacao;
   console.log(`Você classificou o produto com: ${chalk.yellow(classificacaoEscolhida)}`);
-});
+});;

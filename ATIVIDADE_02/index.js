@@ -10,4 +10,4 @@ inquirer
   .then((respostas) => {
     const nome = respostas.nome;
     console.log(`Olá, ${chalk.bold(nome)}! Bem-vindo(a)!`);
-  });
+  });;;
