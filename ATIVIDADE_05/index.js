@@ -6,7 +6,7 @@ const perguntas = [
     type: 'list',
     name: 'classificacao',
     message: 'Classifique o produto:',
-    choices: ['1 estrela', '2 estrelas', '3 estrelas', '4 estrelas', '5 estrelas'],
+    choices: ['⭐ estrela', '2 ⭐⭐estrelas', '3 ⭐⭐⭐estrelas', '4 ⭐⭐⭐⭐estrelas', '5 ⭐⭐⭐⭐⭐estrelas'],
   }
 ];
 
